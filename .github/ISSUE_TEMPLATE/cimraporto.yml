@@ -1,0 +1,69 @@
+---
+
+name: "Cimraporto"
+description: "Sendu raporton pri cimo por helpi nin plibonigi"
+title: "CIMO: "
+labels: ["cimo", "bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dankon pro la tempo por plenigi ĉi tiun cimraporton!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Kion okazis?"
+      description: "Priskribu la cimon"
+      placeholder: |
+        Klara kaj konciza priskribo de kio estas la cimo.
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Kiel povas ĝi esti replikita?"
+      description: "Priskribu kiel reprodukti la konduton"
+      placeholder: |
+        1. Iru al '...'
+        2. Alklaku sur '...'
+        3. Rulumu malsupren al '...'
+        4. Vidu '...'
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: expectation
+    attributes:
+      label: "Kion vi atendis anstataŭe?"
+      description: "Priskribu la atenditan konduton"
+      placeholder: |
+        Klara kaj konciza priskribo de tio, kion vi atendis okazi.
+
+        *Se aplikeble, aldonu ekrankopiojn por helpi klarigi vian problemon.*
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Koncerna protokolero"
+      render: shell
+      description: |
+        Bonvolu kopii kaj alglui iujn ajn koncernajn protokolerojn. Ĉi tio aŭtomate formiĝos kiel kodo, do vi ne bezonos uzi "```".
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Kodon de Konduto"
+      description: |
+        Sendante ĉi tiun cimraporton, vi konsentas obei la [Kodon de Konduto](https://github.com/esperantigo/.github/blob/main/CODE_OF_CONDUCT.md).
+
+      options:
+        - label: "Mi konsentas obei la Kodon de Konduto de ĉi tiu projekto"
+          required: true
