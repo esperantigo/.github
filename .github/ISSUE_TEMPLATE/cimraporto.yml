@@ -62,7 +62,7 @@ body:
     attributes:
       label: "Kodon de Konduto"
       description: |
-        Sendante ĉi tiun cimraporton, vi konsentas obei la [Kodon de Konduto](https://github.com/esperantigo/.github/blob/main/CODE_OF_CONDUCT.md).
+        Sendante ĉi tiun cimraporton, vi konsentas obei la [Kodon de Konduto](https://github.com/esperantigo/.github/blob/ĉefa/CODE_OF_CONDUCT.md).
 
       options:
         - label: "Mi konsentas obei la Kodon de Konduto de ĉi tiu projekto"
