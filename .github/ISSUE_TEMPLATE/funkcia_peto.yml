@@ -1,0 +1,68 @@
+---
+
+name: "Funkcio-peto"
+description: "Proponu ideon por ĉi tiu projekto"
+title: "FUNKCIO: "
+labels: ["funkcio", "feature"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dankon pro la tempo por plenigi ĉi tiun funkcio-peton!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Ĉu via funkcio-peto rilatas al problemo?"
+      description: "Bonvolu priskribi vian ideon"
+      placeholder: |
+        Klara kaj konciza priskribo de kio estas la problemo.
+
+        *Mi ĉiam estas frustrita kiam [...]*
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Kiujn solvojn vi pripensis?"
+      description: "Priskribu la solvon, kiun vi ŝatus"
+      placeholder: |
+        Klara kaj konciza priskribo de tio, kion vi volas okazi.
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Kiujn alternativojn vi pripensis?"
+      description: "Priskribu iujn ajn alternativajn solvojn, kiujn vi pripensis"
+      placeholder: |
+        Klara kaj konciza priskribo de iuj ajn alternativaj aŭ ekzistantaj solvoj aŭ funkcioj, kiujn vi pripensis.
+
+        *Se aplikeble, bonvolu klarigi kial via solvo estas preferinda.*
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Plia kunteksto"
+      description: |
+        Bonvolu aldoni iajn aliajn kuntekstojn aŭ ekrankopiojn pri la funkcio-peto ĉi tie.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Kodon de Konduto"
+      description: |
+        Sendante ĉi tiun funkcio-peton, vi konsentas obei la [Kodon de Konduto](https://github.com/esperantigo/.github/blob/ĉefa/CODE_OF_CONDUCT.md).
+
+      options:
+        - label: "Mi konsentas obei la Kodon de Konduto de ĉi tiu projekto"
+          required: true
