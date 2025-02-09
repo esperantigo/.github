@@ -2,6 +2,9 @@
 
 Bonvenon! 👋
 
+Ĉi tiu organizio estas deponejaro de tradukoj kaj aliaj esperantigaj taskoj.
+Bonvolu, se vi volas kontribui, faru forkon el iu el la deponejoj kaj kreu tirpeton.
+
 ## Noto pri Permesiloj
 
 Por ke la ĝusta licenco estas detektita, ĉiuj deponejoj ĉi tie inkluzivas anglalingvan dosieron nomatan "LICENSE", sen dosiersufikso.
